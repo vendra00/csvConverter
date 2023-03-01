@@ -6,6 +6,7 @@ import logging
 import colorlog
 from dotenv import load_dotenv
 
+# Load the environment variables from the .env file
 load_dotenv('.env')
 DELIMITER = '|'  # define the delimiter here
 count: int = 0  # initialize count variable here
